@@ -59,7 +59,9 @@ The project follows the Model-View-Controller (MVC) architecture pattern:
 3. Run the project using Maven:
 
 ```bash
-mvn spring-boot:run
+mvn spring-boot:run 
+or
+java "-Dserver.port=8080" -jar target\linked-stats-engine-0.0.1-SNAPSHOT.jar
 ```
 
 4. Open a web browser and go to: [http://localhost:8080/](http://localhost:8080/)
@@ -85,4 +87,4 @@ mvn test
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
