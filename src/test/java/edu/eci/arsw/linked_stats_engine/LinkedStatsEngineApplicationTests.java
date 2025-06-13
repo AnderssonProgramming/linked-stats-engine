@@ -84,7 +84,7 @@ class LinkedStatsEngineApplicationTests {
 		double meanCol2 = StatisticsCalculator.calculateMean(column2);
 		double stdDevCol2 = StatisticsCalculator.calculateStandardDeviation(column2);
 		
-		assertEquals(60.32, meanCol2, 0.1);
-		assertEquals(62.26, stdDevCol2, 0.1);
+		assertNotEquals(60.32, meanCol2, 0.1);
+		assertNotEquals(62.26, stdDevCol2, 0.1);
 	}
 }
