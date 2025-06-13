@@ -1,10 +1,6 @@
 # Linked Stats Engine
 
-This project implements a statistics engine that calculates the mean and standard deviation of a set of real numbers using a custom linked list implementation that complies with Java's Collections API.
-
-## Description
-
-The Linked Stats Engine reads numbers from a file and stores them in a custom linked list implementation. It then calculates the mean and standard deviation of these numbers and displays the results both in the terminal and via a web interface.
+This project implements a statistics engine that calculates the mean and standard deviation of a set of real numbers using a custom linked list implementation that complies with Java's Collections API and displays the results both in the terminal and via a web interface.
 
 ## Features
 
@@ -12,7 +8,7 @@ The Linked Stats Engine reads numbers from a file and stores them in a custom li
 - File reader to load data from a text file
 - Statistical calculations (mean and standard deviation)
 - Command-line output of statistical results
-- Web interface for viewing results with charts and tables
+- Web interface for viewing results with charts and tables (chart.js, bootstrap, thymeleaf)
 
 ## Design Description
 
@@ -65,6 +61,10 @@ java "-Dserver.port=8080" -jar target\linked-stats-engine-0.0.1-SNAPSHOT.jar
 ```
 
 4. Open a web browser and go to: [http://localhost:8080/](http://localhost:8080/)
+
+- Screenshot functionality
+
+![Webserver functionality](src/site/resources/webserver.png)
 
 ## Tests
 
